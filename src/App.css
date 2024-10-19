@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.chakra-ui-light{
+  display: block;
+}
+#root{
+  background-color: #F5F5F7;
+
+}

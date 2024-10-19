@@ -1,0 +1,56 @@
+.ticket p{
+    font-size: 13px;
+}
+.time{
+    display: flex;
+    justify-content: space-evenly;
+    color: #347928;
+    /* margin-bottom: 5px; */
+}
+.total{
+    margin-bottom: 3px;
+}
+.card{
+    min-width: 400px;
+    overflow: hidden;
+}
+.pcard{
+    border-left: 2px dashed #F5F5F7;
+}
+.tcir{
+    position: relative;
+    top: -18px;
+    left: -9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #F5F5F7;
+}
+.bcir{
+    position: relative;
+    top: 10px;
+    left: -9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #F5F5F7;
+}
+
+.price{
+    color: #0d6efd;
+}
+
+.pcard button{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: #0d6efd;
+}
+
+/* @media only screen and (max-width: 600px) {
+    . {
+      width: 110px;
+      height: 30px;
+    }
+  } */

@@ -1,0 +1,28 @@
+.header{
+    background: url("../images/coverpic.jpg") no-repeat center/cover;
+    height: 270px;
+    width: 100%;
+    position: relative;
+    /* border-bottom: 1px solid gray; */
+}
+.logo{
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+
+.h1 , .p{
+    color: #0B192C;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+      width: 110px;
+      height: 30px;
+    }
+  }

@@ -1,0 +1,43 @@
+.fromto{
+    position: relative;
+    z-index: 2;
+    top: -60px;
+}
+.fromto input, .fromto input:focus, .fromto select{
+    outline: none;
+    border: none;
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
+.fromto label{
+    font-size: 13px;
+    color: #4d4f54;
+}
+
+.swap{
+    position: relative;
+    top: 35px;
+    left: -25px;
+    width: 21px;
+    height: 19px;
+    padding: 2px;
+    font-size: 12px;
+   
+    background-color: #0d6efd;
+    border-radius: 4px;
+    color: white;
+}
+
+.toggle{
+    position: relative;
+    z-index: 2;
+    top: -40px;
+}
+.tbtns{
+    min-width: 250px;;
+}
+.tbtns label, .tbtns label:hover{
+    outline-color: transparent;
+    border-color: transparent;
+}
+

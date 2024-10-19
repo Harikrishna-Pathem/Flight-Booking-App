@@ -1,0 +1,19 @@
+.box{
+   
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.box input, .box input:focus, .box select{
+    outline: none;
+    border: none;
+    background-color: #e8e8e8;
+    min-width: 200px;
+}
+.text{
+    min-width: 400px;
+}
+.button{
+    min-width: 130px;
+}
